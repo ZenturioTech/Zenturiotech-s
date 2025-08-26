@@ -1368,27 +1368,22 @@ const SereinSoulPage: React.FC = () => {
 
           /* Blue Section Mobile */
           .blue-bg {
-            position: relative !important;
-            left: 0 !important;
-            transform: none !important;
-            top: -400px !important;
-            width: 100% !important;
-            height: 250px !important;
-            margin-bottom: 20px !important;
-            border-radius: 50px 0px !important;
+            display: none !important;
           }
 
           .description-text {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -620px !important;
+            top: -460px !important;
             width: 100% !important;
             height: auto !important;
             font-size: 18px !important;
             line-height: 26px !important;
             margin: 0 0 40px 0 !important;
             padding: 20px !important;
+            background: #A0D2FB !important;
+            border-radius: 50px 0px !important;
             box-sizing: border-box !important;
           }
 
@@ -1397,7 +1392,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -500 !important;
+            top: 0 !important;
             width: 100% !important;
             height: auto !important;
             flex-direction: column !important;
@@ -1413,6 +1408,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
+            top: 0 !important;
             width: 100% !important;
             height: 400px !important;
           }
@@ -1667,21 +1663,14 @@ const SereinSoulPage: React.FC = () => {
             font-size: 24px !important;
             line-height: 30px !important;
           }
-            .blue-bg {
-            position: relative !important;
-            left: 0 !important;
-            transform: none !important;
-            top: -400 !important;
-            width: 100% !important;
-            height: 300px !important;
-            margin-bottom: 20px !important;
-            border-radius: 50px 0px !important;
-          }
-             .description-text {
-            top: -660 !important;
+          .blue-bg { display: none !important; }
+          .description-text {
+            top: -440px !important;
             font-size: 15px !important;
             line-height: 20px !important;
-            padding: 12px !important;
+            padding: 16px !important;
+            background: #A0D2FB !important;
+            border-radius: 40px 0px !important;
           }
 
           .expert-title {
@@ -1695,6 +1684,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
+            top: 0 !important;
             width: 100% !important;
             height: 350px !important;
           }
@@ -2031,9 +2021,11 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .description-text {
-            top: -675px !important;
+            top: -420px !important;
             font-size: 13px !important;
-            line-height: 25px !important;
+            line-height: 22px !important;
+            background: #A0D2FB !important;
+            border-radius: 36px 0px !important;
           }
 
           .expert-title {
@@ -2250,7 +2242,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
-            top:-50px !important;
+            top: 0 !important;
             width: 100% !important;
             height: 260px !important;
           }
