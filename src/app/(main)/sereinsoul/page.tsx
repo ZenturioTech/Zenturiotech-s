@@ -22,7 +22,7 @@ const SereinSoulPage: React.FC = () => {
         height: 'auto',
         background: '#062549',
         margin: '0 auto',
-        overflow: 'hidden'
+        overflow: 'visible'
       }}>
         
         {/* Hero Features Section with Ocean Background */}
@@ -654,6 +654,7 @@ const SereinSoulPage: React.FC = () => {
               muted
               loop
               controls
+              playsInline
               style={{
                 position: 'absolute',
                 top: 0,
@@ -1106,7 +1107,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 50% !important;
             transform: translateX(-50%) !important;
-            top: 30 !important;
+            top: 30px !important;
             width: 90% !important;
             height: auto !important;
             font-size: 32px !important;
@@ -1119,7 +1120,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 50% !important;
             transform: translateX(-50%) !important;
-            top: 40 !important;
+            top: 40px !important;
             width: 90% !important;
             height: auto !important;
             font-size: 20px !important;
@@ -1187,7 +1188,7 @@ const SereinSoulPage: React.FC = () => {
             transform: none !important;
             top: 0 !important;
             width: 100% !important;
-            height: 300 !important;
+            height: 300px !important;
             min-height: 400px !important;
             margin: 0 0 60px 0 !important;
             padding: 30px 20px !important;
@@ -1235,9 +1236,9 @@ const SereinSoulPage: React.FC = () => {
 
           .phone-title {
             position: relative !important;
-            left: 90!important;
+            left: 90px !important;
             transform: none !important;
-            top:-650 !important;
+            top:-650px !important;
             width: 100% !important;
             height: auto !important;
             font-size: 22px !important;
@@ -1252,9 +1253,9 @@ const SereinSoulPage: React.FC = () => {
 
           .phone-description {
             position: relative !important;
-           left: 100 !important;
+           left: 100px !important;
             transform: none !important;
-            top:-650 !important;
+            top:-650px !important;
             width: 60% !important;
             height: auto !important;
             font-size: 18px !important;
@@ -1271,7 +1272,7 @@ const SereinSoulPage: React.FC = () => {
           .love-section {
             position: relative !important;
             left: 0 !important;
-            top: -450 !important;
+            top: -450px !important;
             width: 100% !important;
             margin: 40px 0 !important;
             padding: 0 10px !important;
@@ -1294,7 +1295,7 @@ const SereinSoulPage: React.FC = () => {
           .feature-cards-container {
             position: relative !important;
             left: 0 !important;
-            top: -450 !important;
+            top: -450px !important;
             flex-direction: column !important;
             align-items: center !important;
             gap: 20px !important;
@@ -1330,7 +1331,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -400 !important;
+            top: -400px !important;
             width: 100% !important;
             height: 300px !important;
             margin: 40px 0 !important;
@@ -1357,7 +1358,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -400 !important;
+            top: -400px !important;
             width: 100% !important;
             font-size: 28px !important;
             line-height: 35px !important;
@@ -1370,7 +1371,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -400 !important;
+            top: -400px !important;
             width: 100% !important;
             height: 250px !important;
             margin-bottom: 20px !important;
@@ -1381,7 +1382,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -620 !important;
+            top: -620px !important;
             width: 100% !important;
             height: auto !important;
             font-size: 18px !important;
@@ -1623,7 +1624,7 @@ const SereinSoulPage: React.FC = () => {
 
           .phone-title {
             left: 10px !important;
-            top:-620 !important;
+            top:-620px !important;
             font-size: 20px !important;
             line-height: 25px !important;
             margin-bottom: 12px !important;
@@ -1631,7 +1632,7 @@ const SereinSoulPage: React.FC = () => {
 
           .phone-description {
             
-            top:-600 !important;
+            top:-600px !important;
             left: 70px !important;
             font-size: 13px !important;
             line-height: 18px !important;
@@ -1705,88 +1706,7 @@ const SereinSoulPage: React.FC = () => {
 
         }
 
-        // /* iPhone 6/7/8/SE - 414px */375px */
-        // @media only screen and (max-width: 480px) {
-        //   .hero-title {
-        //     font-size: 27px !important;
-        //     line-height: 31px !important;
-        //   }
-
-        //   .hero-subtitle {
-        //     font-size: px !important;
-        //     line-height: 21px !important;
-        //   }
-
-        //   .character-image {
-        //     width: 200px !important;
-        //     height: 300px !important;
-        //   }
-
-        //   .character-image > div {
-        //     width: 200px !important;
-        //     height: 280px !important;
-        //   }
-
-        //   .ai-companion-header {
-        //     font-size: 23px !important;
-        //     line-height: 29px !important;
-        //   }
-
-        //   .ai-companion-subtitle {
-        //     font-size: 17px !important;
-        //     line-height: 23px !important;
-        //   }
-
-        //   .phone-bg {
-        //     min-height: 340px !important;
-        //     padding: 24px 14px !important;
-        //   }
-
-        //   .phone-image {
-        //     width: 150px !important;
-        //     height: 185px !important;
-        //   }
-
-        //   .phone-image > div {
-        //     top:-400px;
-        //     left:100px;
-        //     width: 150px !important;
-        //     height: 185px !important;
-        //   }
-
-        //   .phone-title {
-        //     top:-800 !important;
-        //     font-size: 17px !important;
-        //     line-height: 23px !important;
-        //   }
-
-        //   .phone-description {
-        //     left :100px;
-        //     top:-550 !important;
-        //     font-size: 13px !important;
-        //     line-height: 19px !important;
-        //   }
-
-        //   .feature-card {
-        //     width: 250px !important;
-        //     height: 250px !important;
-        //   }
-
-        //   .feature-card > div {
-        //     width: 45px !important;
-        //     height: 45px !important;
-        //   }
-
-        //   .love-section span:first-child {
-        //     font-size: 22px !important;
-        //     line-height: 28px !important;
-        //   }
-
-        //   .love-section span:last-child {
-        //     font-size: 32px !important;
-        //     line-height: 40px !important;
-        //   }
-        // }
+        
 
         /* iPhone 12/13/14 - 375px */
         @media (max-width: 375px){
@@ -2130,7 +2050,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
-            top: -90!important;
+            top: -90px !important;
             width: 100% !important;
             height: 350px !important;
           }
