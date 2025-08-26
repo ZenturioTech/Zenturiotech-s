@@ -83,7 +83,7 @@ const SereinSoulPage: React.FC = () => {
             height: '291px',
             left: '8.33%',
             top: '320px',
-            fontFamily: 'Lato',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
             fontWeight: '800',
             fontSize: '70px',
@@ -92,7 +92,7 @@ const SereinSoulPage: React.FC = () => {
             zIndex: 5,
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}>
-            You Deserve Someone Who Listens
+            You Deserve Someone  Who Listens
           </h1>
 
           {/* Hero Subtitle */}
@@ -101,8 +101,8 @@ const SereinSoulPage: React.FC = () => {
             width: '800px',
             height: '160px',
             left: '8.33%',
-            top: '500px',
-            fontFamily: 'Lato',
+            top: '600px',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '43px',
@@ -121,7 +121,7 @@ const SereinSoulPage: React.FC = () => {
             height: '677px',
             right: '5.2%',
             top: '170px',
-            zIndex: 6
+            zIndex: 1
           }}>
             <div style={{ width: '451px', height: '630px', position: 'relative' }}>
               <Image
@@ -184,11 +184,11 @@ const SereinSoulPage: React.FC = () => {
             height: '130px',
             left: '50%',
             transform: 'translateX(-50%)',
-            top: '80px',
-            fontFamily: 'Lato',
+            top: '40px',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
-            fontWeight: '700',
-            fontSize: '54px',
+            fontWeight: '600',
+            fontSize: '45px',
             lineHeight: '65px',
             color: '#0F85E7',
             textAlign: 'center'
@@ -204,7 +204,7 @@ const SereinSoulPage: React.FC = () => {
             left: '50%',
             transform: 'translateX(-50%)',
             top: '180px',
-            fontFamily: 'Lato',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '41px',
@@ -383,9 +383,9 @@ const SereinSoulPage: React.FC = () => {
               left: '50%',
               transform: 'translateX(-50%) translateX(254px)',
               top: '350px',
-              fontFamily: 'Lato',
+              fontFamily: 'Poppins',
               fontStyle: 'normal',
-              fontWeight: '700',
+              fontWeight: '500',
               fontSize: '51px',
               lineHeight: '55px',
               textAlign: 'center',
@@ -402,10 +402,10 @@ const SereinSoulPage: React.FC = () => {
               left: '50%',
               transform: 'translateX(-50%) translateX(270.5px)',
               top: '500px',
-              fontFamily: 'Lato',
+              fontFamily: 'Poppins',
               fontStyle: 'normal',
-              fontWeight: '600',
-              fontSize: '25px ',
+              fontWeight: '400',
+              fontSize: '35px ',
               lineHeight: '40px',
               textAlign: 'justify',
               color: '#60676C'
@@ -423,7 +423,7 @@ const SereinSoulPage: React.FC = () => {
             textAlign: 'center'
           }}>
             <span style={{
-              fontFamily: 'Lato',
+              fontFamily: 'Poppins',
               fontStyle: 'normal',
               fontWeight: '500',
               fontSize: '46px',
@@ -433,9 +433,9 @@ const SereinSoulPage: React.FC = () => {
               Why You'll Love{' '}
             </span>
             <span style={{
-              fontFamily: 'Lato',
+              fontFamily: 'Poppins',
               fontStyle: 'normal',
-              fontWeight: '700',
+              fontWeight: '500',
               fontSize: '74px',
               lineHeight: '89px',
               color: '#0F85E7'
@@ -479,7 +479,7 @@ const SereinSoulPage: React.FC = () => {
                 />
               </div>
               <h4 style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '600',
                 fontSize: '27px',
@@ -490,7 +490,7 @@ const SereinSoulPage: React.FC = () => {
                 Always Available
               </h4>
               <p style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '500',
                 fontSize: '18px',
@@ -523,7 +523,7 @@ const SereinSoulPage: React.FC = () => {
                 />
               </div>
               <h4 style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '600',
                 fontSize: '27px',
@@ -534,7 +534,7 @@ const SereinSoulPage: React.FC = () => {
                 Judgment-Free
               </h4>
               <p style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '500',
                 fontSize: '18px',
@@ -567,7 +567,7 @@ const SereinSoulPage: React.FC = () => {
                 />
               </div>
               <h4 style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '600',
                 fontSize: '27px',
@@ -578,7 +578,7 @@ const SereinSoulPage: React.FC = () => {
                 Wellness Tips
               </h4>
               <p style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '500',
                 fontSize: '18px',
@@ -611,7 +611,7 @@ const SereinSoulPage: React.FC = () => {
                 />
               </div>
               <h4 style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '600',
                 fontSize: '27px',
@@ -622,7 +622,7 @@ const SereinSoulPage: React.FC = () => {
                 Fun Games
               </h4>
               <p style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '500',
                 fontSize: '18px',
@@ -685,7 +685,7 @@ const SereinSoulPage: React.FC = () => {
               zIndex: 2
             }}>
               <h2 style={{
-                fontFamily: 'Lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '700',
                 fontSize: '36px',
@@ -708,9 +708,9 @@ const SereinSoulPage: React.FC = () => {
             left: '50%',
             transform: 'translateX(-50%)',
             top: '2050px',
-            fontFamily: 'Lato',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
-            fontWeight: '700',
+            fontWeight: '500',
             fontSize: '54px',
             lineHeight: '65px',
             color: '#0F85E7',
@@ -741,7 +741,7 @@ const SereinSoulPage: React.FC = () => {
             left: '50%',
             transform: 'translateX(-50%)',
             top: '2300px',
-            fontFamily: 'Lato',
+            fontFamily: 'Poppins',
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '32px',
@@ -800,7 +800,7 @@ const SereinSoulPage: React.FC = () => {
               </h2>
 
               <p className="expert-description" style={{
-                fontFamily: 'lato',
+                fontFamily: 'Poppins',
                 fontStyle: 'normal',
                 fontWeight: '500',
                 fontSize: '28px',
@@ -1246,7 +1246,7 @@ const SereinSoulPage: React.FC = () => {
             padding: 0 10px !important;
             text-align: center !important;
             color: #0F85E7 !important;
-            font-family: 'Lato' !important;
+            font-family: 'Poppins' !important;
             font-weight: 700 !important;
           }
 
@@ -1263,7 +1263,7 @@ const SereinSoulPage: React.FC = () => {
             margin: 0 !important;
             padding: 0 10px !important;
             color: #60676C !important;
-            font-family: 'Lato' !important;
+            font-family: 'Poppins' !important;
             font-weight: 600 !important;
           }
 
