@@ -1375,7 +1375,7 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: -460px !important;
+            top: -360px !important;
             width: 100% !important;
             height: auto !important;
             font-size: 18px !important;
@@ -1665,7 +1665,7 @@ const SereinSoulPage: React.FC = () => {
           }
           .blue-bg { display: none !important; }
           .description-text {
-            top: -440px !important;
+            top: -360px !important;
             font-size: 15px !important;
             line-height: 20px !important;
             padding: 16px !important;
@@ -2021,7 +2021,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .description-text {
-            top: -420px !important;
+            top: -360px !important;
             font-size: 13px !important;
             line-height: 22px !important;
             background: #A0D2FB !important;
