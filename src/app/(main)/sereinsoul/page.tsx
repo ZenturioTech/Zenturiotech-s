@@ -120,7 +120,7 @@ const SereinSoulPage: React.FC = () => {
             width: '451px',
             height: '677px',
             right: '5.2%',
-            top: '170px',
+            bottom: '0px',
             zIndex: 1
           }}>
             <div style={{ width: '451px', height: '630px', position: 'relative' }}>
@@ -1134,7 +1134,7 @@ const SereinSoulPage: React.FC = () => {
             right: auto !important;
             left: 50% !important;
             transform: translateX(-50%) !important;
-            top: 0 !important;
+            bottom: 0 !important;
             width: 250px !important;
             height: 375px !important;
             margin: 0 auto !important;
@@ -1392,12 +1392,12 @@ const SereinSoulPage: React.FC = () => {
             position: relative !important;
             left: 0 !important;
             transform: none !important;
-            top: 0 !important;
+            top: -400px !important;
             width: 100% !important;
             height: auto !important;
             flex-direction: column !important;
-            gap: 30px !important;
-            padding: 20px !important;
+            gap: 20px !important;
+            padding: 10px !important;
           }
 
           .therapist-image {
@@ -1426,13 +1426,14 @@ const SereinSoulPage: React.FC = () => {
           .expert-description {
             font-size: 18px !important;
             line-height: 26px !important;
-            margin-bottom: 50px !important;
+            margin-bottom: 20px !important;
           }
 
           .cta-button {
             width: 100% !important;
             max-width: 350px !important;
             height: 60px !important;
+            margin-bottom: 20px !important;
           }
 
           .cta-button span {
@@ -1619,8 +1620,8 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .phone-title {
+            top: -620px !important;
             left: 10px !important;
-            top:-620px !important;
             font-size: 20px !important;
             line-height: 25px !important;
             margin-bottom: 12px !important;
@@ -1674,9 +1675,12 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .expert-title {
-            font-size: 24px !important;
-            line-height: 30px !important;
+            top: -50px !important;
+            font-size: 25px !important;
+            line-height: 29px !important;
           }
+
+          
 
           .therapist-image {
             max-width: 350px !important;
@@ -1851,14 +1855,13 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .expert-title {
-            font-size: 24px !important;
-            line-height: 28px !important;
+            font-size: 18px !important;
+            line-height: 24px !important;
           }
 
           .expert-description {
-            
-            font-size: 15px !important;
-            line-height: 20px !important;
+            font-size: 12px !important;
+            line-height: 18px !important;
           }
 
           .therapist-image {
@@ -1867,18 +1870,23 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
+            top: 0 !important;
             width: 100% !important;
             height: 300px !important;
           }
-
-          .cta-button {
-            height: 42px !important;
-            max-width: 260px !important;
+            .expert-title {
+            top: -500px !important;
+            
+            font-size: 25px !important;
+            line-height: 29px !important;
           }
 
-          .cta-button span {
-            font-size: 15px !important;
+            .expert-description {
+            top: -500px !important;
+            font-size: 14px !important;
+            line-height: 20px !important;
           }
+
         }
 
         /* Small Mobile - 360px */
@@ -2042,19 +2050,19 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image > div {
-            top: -90px !important;
+            top: 0 !important;
             width: 100% !important;
-            height: 350px !important;
+            height: 280px !important;
           }
             .expert-title {
-            top: -500px !important;
+            top: -400px !important;
             
             font-size: 25px !important;
             line-height: 29px !important;
           }
 
             .expert-description {
-            top: -500px !important;
+            top: -400px !important;
             font-size: 14px !important;
             line-height: 20px !important;
           }
@@ -2236,7 +2244,7 @@ const SereinSoulPage: React.FC = () => {
           }
 
           .therapist-image {
-            top:-400px !important;
+            top: -400px !important;
             max-width: 260px !important;
             height: 260px !important;
           }
